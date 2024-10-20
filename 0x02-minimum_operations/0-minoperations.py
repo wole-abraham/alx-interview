@@ -6,11 +6,12 @@ that calculates the fewest number of operations needed to result in exactly n H 
 
 Prototype: def minOperations(n)
 Returns an integer
-If n is impossible to achieve, return 0"""
+If n is impossible to achieve, return 0
+"""
 
 
 def minOperations(n):
-  """ minimum operation algorithm """
+  """ minimum operation algorithm that works"""
     if n <= 1:
         return 0
 
