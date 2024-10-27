@@ -60,11 +60,11 @@ pattern = (r'^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}) - '
 
 try:
     for line in sys.stdin:
-        counter += 1
         match = re.match(pattern, line)
         if match:
             stat = line.split(" ")
             if stat[-2] in status_codes.keys():
+                counter += 1
                 status_codes[stat[-2]] += 1
                 total_size += int(stat[-1])
             else:
