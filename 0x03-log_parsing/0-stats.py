@@ -69,6 +69,8 @@ try:
                 total_size += int(stat[-1])
             else:
                 continue
+        else:
+            continue
         if counter == 10:
             print_stats()
             counter = 0
