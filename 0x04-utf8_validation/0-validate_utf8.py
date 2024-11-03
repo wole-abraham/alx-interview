@@ -1,4 +1,9 @@
+#!/usr/bin/python3
+""" Python script"""
+
+
 def validUTF8(data):
+    """utf-8 validator  """
     num_bytes = 0  # Number of bytes in the current UTF-8 character
 
     for byte in data:
