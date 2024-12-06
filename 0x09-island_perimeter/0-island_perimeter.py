@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Island Perimeter - ALX Interview"""
+
+
 def island_perimeter(grid):
     """
     Calculate the perimeter of an island represented in a binary grid.
